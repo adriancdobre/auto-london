@@ -1,0 +1,44 @@
+body{
+    background-image: url(/images/about-background.png);
+}
+
+.navbar{
+    width: 98%;
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    width: 20%;
+}
+.logo a{
+    font-size: xx-large;
+    color: orange;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.logo a span{
+    color: red;
+   
+}
+.menu{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+.menu{
+    list-style: none;
+   
+}
+.menu li a{
+    text-decoration: none;
+    color:red;
+    font-size: larger;
+    font-weight: bolder;
+}
+.menu li a:hover{
+    color: orange;
+    font-weight: bolder;
+}

@@ -1,0 +1,53 @@
+body{
+    background:none;
+}
+.container-gallery{
+    width: 100%;
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.title{
+    width: 10%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.div-1{
+    width: 90%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.div-1 .cars .image{
+    width: 60%;
+}
+
+.div-1 .cars .name{
+    width: 40%;
+}
+.div-2{
+    width: 90%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cars{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+}

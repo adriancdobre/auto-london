@@ -1,0 +1,37 @@
+body{
+    background-image: url(/images/about-background.png);
+}
+.container{
+    height: 100vh;
+}
+.description{
+    width: 60%;
+    height: 300px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.description p{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+.description button{
+    width: 150px;
+    height: 50px;
+    background-color: orange;
+    border: none;
+    border-radius: 40px;   
+}
+.description button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.description button a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
